@@ -20,7 +20,7 @@ import java.util.List;
 
 public class RyoamiumOptionPage extends OptionPage {
 
-    public static final OptionIdentifier<Void> ID = OptionIdentifier.create(new ResourceLocation(RyoamiumConstants.MOD_ID, "dynamic_lights"));
+    public static final OptionIdentifier<Void> ID = OptionIdentifier.create(new ResourceLocation(RyoamicLights.NAMESPACE, "dynamic_lights"));
 
     public RyoamiumOptionPage() {
         super(ID, Component.translatable("ryoamium.options.dynamic_lights"), create());
